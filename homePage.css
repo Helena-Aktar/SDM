@@ -71,6 +71,22 @@ body {
   /* background: antiquewhite; */
   justify-content: space-around;
 }
+/* profile popup */
+.profile-popup {
+  position: absolute;
+  z-index: 10;
+  top: 45px;
+  box-shadow: 0 0 1rem var(--color-primary);
+  /* popup hidden */
+  display: none;
+}
+/* .profile:hover {
+  background: #1e2234;
+} */
+.profile:hover + #profile-popup {
+  background: #1e2234;
+  display: block;
+}
 /* ---------- nav top right 2 --------- */
 .nav_top-right-2 {
   justify-content: space-around;
